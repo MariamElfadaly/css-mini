@@ -1,0 +1,123 @@
+.header-parent {
+  border: 1px rgb(254, 251, 233) solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(254, 251, 233 0.9);
+}
+
+.links-container {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.websitelogo {
+  width: 50px;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fefbe9;
+}
+.links-container a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.links-container a:hover {
+  font-size: x-large;
+  color: #f6c453;
+}
+/* main */
+.main-parent {
+  border: 1px fefbe9 solid;
+  display: flex;
+  height: 1555px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* border: #183a1d 1px solid; */
+}
+.box {
+  width: 200px;
+  height: 200px;
+}
+.box1 {
+  background-color: #f6c453;
+}
+.box2 {
+  background-color: #183a1d;
+}
+.box3 {
+  background-color: #f0a04b;
+}
+.btn-parent {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: 100%;
+  /* border: #183a1d 1px solid; */
+}
+.btn {
+  width: 90px;
+  height: 50px;
+  background-color: #f0a04b;
+  color: white;
+  border: #f0a04b;
+  box-shadow: 1px 1px 1px 1px black;
+  font-size: large;
+  border-radius: 5px;
+  font-weight: bold;
+  font-style: inherit;
+}
+/* footer */
+.footer-parent {
+  border: 1px cadetblue solid;
+  /* OR #e1eedd  */
+  height: 100%;
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-terms {
+  background-color: #183a1d;
+  border: 1px #183a1d solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CONTACT-LIST {
+  list-style: none;
+  display: flex;
+}
+.section1,
+.section2,
+.section3 {
+  border: 1px #e1eedd solid;
+  background-color: #e1eedd;
+}
+.section1 {
+  flex: 1;
+}
+.section2 {
+  flex: 2;
+}
+.section3 {
+  flex: 1;
+}
+.fimg {
+  height: 50px;
+  width: 50px;
+}
+.footer-terms .TERMS-TEXT {
+  color: white;
+  text-decoration: none;
+}
+/* space between conntact */
+/* header stick to the top */
+/* TERMS FOOTER TEXT??
+UNDERLINE COLOR ALL OF IT IS HYPERLINK WHILE I ONLY TAGED "TERMS    " */
+/* btn how to flex */
